@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ /*  Mobile */
+
+ @media screen and (max-width: 480px){
+    body{
+        background: pink;
+    }
+ } 
+
+ /* Extra small devices */
+ @media (min-width: 481px) and (max-width: 767px) {
+    body{
+        background: rgb(172, 87, 172);
+    }
+ }    
+ 
+ /*Small tablet*/
+
+ @media (min-width: 768px) and (max-width: 991px){
+    body{
+        background: rgb(31, 115, 224);
+    }
+ }
+
+ /* Tablets/Laptops */
+ @media (min-width: 992px) and (max-width: 1199px){
+    body{
+        background: rgb(35, 110, 79);
+    }
+ }
+
+ /*Desktop*/
+ @media (min-width: 1200px) and (max-width: 1999px){
+    body{
+        background: rgb(196, 172, 40);
+    }
+ }
+
+ /* Extra large screens*/
+ @media (min-width: 1920){
+    body{
+        background: rgb(119, 40, 40);
+    }
+ }
